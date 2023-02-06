@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "firstone",
+    "name": "QuickQuiz",
     "slug": "firstone",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Icon1.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/quick-quiz-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#8cc5db"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/Icon.webp",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.akashp12345.firstone"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "708c86b7-056f-4ff9-96b0-e90c9410f836"
+      }
     }
   }
 }

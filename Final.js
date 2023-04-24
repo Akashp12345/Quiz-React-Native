@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,  ToastAndroid } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { useDispatch } from "react-redux"
 
 import { useState, useEffect, useRef } from "react"

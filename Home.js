@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
-import img from "./images/brain.gif"
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+
 import LottieView from 'lottie-react-native'
 import { useRef } from 'react';
 

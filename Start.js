@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TouchableOpacity,Image ,TextInput,ToastAndroid} from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity,TextInput,ToastAndroid} from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import { useState,useEffect,useRef } from 'react';
 import { useSelector,useDispatch } from 'react-redux';

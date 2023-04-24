@@ -4,7 +4,7 @@
     "slug": "firstone",
     "version": "1.1.0",
     "orientation": "portrait",
-    "icon": "./assets/Icon1.jpg",
+    "icon": "./assets/Icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/quick-quiz-logo.png",
@@ -18,11 +18,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akashp12345.firstone"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Icon.webp",
+        "foregroundImage": "./assets/Icon2.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.akashp12345.firstone"
